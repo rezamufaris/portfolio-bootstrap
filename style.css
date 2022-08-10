@@ -1,0 +1,62 @@
+/* Default Color */
+:root {
+  --primary: #147b95;
+  --secondary: #ffffff;
+  --accent: #dafcfc;
+  --dark: #121212;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: var(--accent);
+}
+
+.navbar {
+  background-image: linear-gradient(90deg, var(--dark), var(--primary));
+}
+
+#projects {
+  background-color: var(--accent);
+}
+
+.footer {
+  background-color: var(--primary);
+  color: var(--secondary);
+  text-align: center;
+}
+
+.footer p a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: var(--primary);
+}
+
+.btn-loading {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0px 0px;
+}
